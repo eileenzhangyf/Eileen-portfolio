@@ -447,7 +447,7 @@ h6 {
 }
 
 #hero h1 {
-  margin-left: 320px;
+  margin-left: 380px;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -457,7 +457,7 @@ h6 {
 #hero h2 {
   color: #3a2953;
   margin-top:10px;
-  margin-left: 280px;
+  margin-left: 360px;
   font-size: 22px;
 }
 
@@ -472,7 +472,7 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  margin-left:280px;
+  margin-left:320px;
   color: #fff;
   background: #34b7a7;
 }
