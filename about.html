@@ -36,6 +36,29 @@
 </head>
 
 <body>
+  <script>
+    function rain(){
+      let amount = 50;
+      let body = document.querySelector('body');
+      let i = 0;
+      while(i < amount){
+        let drop = document.createElement('rain-item');
+        let size = Math.random()*6;
+        let posX = Math.floor(Math.random()*window.innerWidth);
+
+        let delay = Math.random()*(-30);
+        let duration = Math.random()*6;
+
+        drop.style.width = 0.2 + size+'px';
+        drop.style.left = posX + 'px';
+        drop.style.animationDelay = delay +'s';
+        drop.style.animationDuration = 1+ duration + 's';
+        body.appendChild(drop);
+        i++;
+      }
+    }
+    rain();
+  </script>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -69,6 +92,7 @@
   </header><!-- End Header -->
 
   <main id="main">
+
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">

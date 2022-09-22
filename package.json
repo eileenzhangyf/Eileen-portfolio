@@ -1,0 +1,22 @@
+{
+  "name": "eileen-portfolio",
+  "version": "1.0.0",
+  "description": "This package contains code for Eileen's homepage.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eileenzhangyf/Eileen-portfolio.git"
+  },
+  "keywords": [
+    "Boostrap"
+  ],
+  "author": "Yifan Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eileenzhangyf/Eileen-portfolio/issues"
+  },
+  "homepage": "https://github.com/eileenzhangyf/Eileen-portfolio#readme"
+}

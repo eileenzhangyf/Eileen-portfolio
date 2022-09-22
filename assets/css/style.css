@@ -41,6 +41,32 @@ h6 {
     margin-top: 30px;
   }
 }
+rain-item
+{
+  position: absolute;
+  height: 200px;
+  background: linear-gradient(transparent,white);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  animation: animate 5s linear infinite;
+}
+rain-item:nth-child(3n+1){
+  background: linear-gradient(transparent, rgb(153, 96, 164));
+}
+rain-item:nth-child(3n+2){
+  background: linear-gradient(transparent, rgb(83, 129, 83));
+}
+rain-item:nth-child(3n+3){
+  background:linear-gradient(transparent, rgb(180, 96, 96))
+}
+@keyframes animate {
+  0%{
+    transform: translateY(-200px);
+  }
+  100%{
+    transform: translateY(calc(100vh+200px));
+  }
+}
 
 /*--------------------------------------------------------------
 # Preloader
