@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eileenzhangyf/Eileen-portfolio.git"
+    "url": "git+https://github.com/eileenzhangyf/eileenzhangyf.github.io.git"
   },
   "keywords": [
     "Boostrap"
   ],
   "author": "Yifan Zhang",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eileenzhangyf/Eileen-portfolio/issues"
+    "url": "https://github.com/eileenzhangyf/eileenzhangyf.github.io/issues"
   },
-  "homepage": "https://github.com/eileenzhangyf/Eileen-portfolio#readme"
+  "homepage": "https://github.com/eileenzhangyf/eileenzhangyf.git.io#readme"
 }
