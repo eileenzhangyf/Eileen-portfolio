@@ -1,7 +1,7 @@
 /**
 * Template Name: Kelly - v4.9.0
 * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
+* Author: Yifan Zhang
 * License: https://bootstrapmade.com/license/
 */
 
@@ -41,29 +41,28 @@ h6 {
     margin-top: 30px;
   }
 }
-rain-item
-{
+rain-item {
   position: absolute;
   height: 200px;
-  background: linear-gradient(transparent,white);
+  background: linear-gradient(transparent, white);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   animation: animate 5s linear infinite;
 }
-rain-item:nth-child(3n+1){
+rain-item:nth-child(3n + 1) {
   background: linear-gradient(transparent, rgb(153, 96, 164));
 }
-rain-item:nth-child(3n+2){
+rain-item:nth-child(3n + 2) {
   background: linear-gradient(transparent, rgb(83, 129, 83));
 }
-rain-item:nth-child(3n+3){
-  background:linear-gradient(transparent, rgb(180, 96, 96))
+rain-item:nth-child(3n + 3) {
+  background: linear-gradient(transparent, rgb(180, 96, 96));
 }
 @keyframes animate {
-  0%{
+  0% {
     transform: translateY(-200px);
   }
-  100%{
+  100% {
     transform: translateY(calc(100vh+200px));
   }
 }
@@ -247,7 +246,7 @@ rain-item:nth-child(3n+3){
   margin-left: 5px;
 }
 
-.navbar>ul>li>a:before {
+.navbar > ul > li > a:before {
   content: "";
   position: absolute;
   width: 0;
@@ -261,7 +260,7 @@ rain-item:nth-child(3n+3){
 }
 
 .navbar a:hover:before,
-.navbar li:hover>a:before,
+.navbar li:hover > a:before,
 .navbar .active:before {
   visibility: visible;
   width: 25px;
@@ -270,7 +269,7 @@ rain-item:nth-child(3n+3){
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #222222;
 }
 
@@ -308,11 +307,11 @@ rain-item:nth-child(3n+3){
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #34b7a7;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -324,7 +323,7 @@ rain-item:nth-child(3n+3){
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -336,7 +335,7 @@ rain-item:nth-child(3n+3){
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -408,7 +407,7 @@ rain-item:nth-child(3n+3){
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #34b7a7;
 }
 
@@ -443,11 +442,11 @@ rain-item:nth-child(3n+3){
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #34b7a7;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -482,7 +481,7 @@ rain-item:nth-child(3n+3){
 
 #hero h2 {
   color: #3a2953;
-  margin-top:10px;
+  margin-top: 10px;
   margin-left: 360px;
   font-size: 22px;
 }
@@ -498,7 +497,7 @@ rain-item:nth-child(3n+3){
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  margin-left:320px;
+  margin-left: 320px;
   color: #fff;
   background: #34b7a7;
 }
@@ -579,7 +578,8 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-1.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/bg-1.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -1119,7 +1119,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1127,7 +1130,10 @@ section {
   border: 1px solid #34b7a7;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #34b7a7;
 }
 
@@ -1150,7 +1156,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1284,7 +1290,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #34b7a7;
   border: 0;
   padding: 10px 30px 12px 30px;
@@ -1293,7 +1299,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #3dc8b7;
 }
 
